@@ -2,6 +2,13 @@
 <img src="https://raw.githubusercontent.com/clauderic/react-infinite-calendar/master/.github/logo.png" width="180"/>
 </div>
 
+### This Calendar project is based on: <a href='https://github.com/clauderic/react-infinite-calendar'>clauderic/react-infinite-calendar</a>, and added new features and fixed bugs which also send PRs on clauderic/react-infinite-calendar.
+
+New Features and Fixed bugs
+-------------
+* **Month Range Selection** - select a range of months
+* **Fixed utils.getMonthsForYear()** -- return min value.
+
 # React Infinite Calendar
 [![npm version](https://img.shields.io/npm/v/react-infinite-calendar.svg)](https://www.npmjs.com/package/react-infinite-calendar)
 [![downloads](https://img.shields.io/npm/dm/react-infinite-calendar.svg)](https://www.npmjs.com/package/react-infinite-calendar)
