@@ -51,7 +51,7 @@ export const enhanceDay = withPropsOnChange(
 // Enhancer to handle selecting and displaying multiple dates
 export const withRange = (Calendar) => {
   const CalendarWithRef = ({ forwardedRef, ...props }) => (
-    <Calendar {...props} ref={forwardedRef} />
+    <Calendar {...props} innerRef={forwardedRef} />
   );
 
   const EnhancedCalendar = compose(

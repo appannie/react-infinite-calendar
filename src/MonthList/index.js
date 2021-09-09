@@ -220,14 +220,9 @@ export default class MonthList extends Component {
   };
 
   render() {
-    let {
-      height,
-      isScrolling,
-      overscanMonthCount,
-      months,
-      rowHeight,
-      width,
-    } = this.props;
+    let { height, isScrolling, overscanMonthCount, months, rowHeight, width } =
+      this.props;
+
     const { scrollOffset } = this.state;
 
     return (

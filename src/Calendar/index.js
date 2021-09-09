@@ -220,11 +220,8 @@ export default class Calendar extends Component {
   handleScroll = (scrollTop, e) => {
     const { onScroll, rowHeight } = this.props;
     const { isScrolling } = this.state;
-    const {
-      showCurrentMonth,
-      showTodayHelper,
-      showOverlay,
-    } = this.getDisplayOptions();
+    const { showCurrentMonth, showTodayHelper, showOverlay } =
+      this.getDisplayOptions();
     const scrollSpeed = Math.abs(this.getScrollSpeed(scrollTop));
     this.scrollTop = scrollTop;
 

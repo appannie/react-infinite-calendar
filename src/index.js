@@ -56,7 +56,7 @@ export default class DefaultCalendar extends Component {
     return (
       <Component
         {...props}
-        ref={this._getRef}
+        innerRef={this._getRef}
         onSelect={this.handleSelect}
         selected={this.state.selected}
       />
