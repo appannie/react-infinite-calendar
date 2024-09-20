@@ -72,7 +72,7 @@
     "eslint-watch": "^7.0.0",
     "husky": "^6.0.0",
     "jest": "^27.5.1",
-    "node-sass": "^6.0.1",
+    "node-sass": "^9.0.0",
     "postcss": "^8.2.12",
     "postcss-loader": "^5.2.0",
     "prettier": "^2.2.1",
